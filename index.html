@@ -1,24 +1,233 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketing Agressivo - Transforme Seu Negócio</title>
-    <meta name="description" content="Transforme seu negócio em uma máquina de crescimento com estratégias de marketing agressivo. Sem agência, sem enrolação - foco total em resultado." />
-    <meta name="author" content="Marketing Agressivo" />
-
-    <meta property="og:title" content="Marketing Agressivo - Transforme Seu Negócio" />
-    <meta property="og:description" content="Transforme seu negócio em uma máquina de crescimento com estratégias de marketing agressivo. Sem agência, sem enrolação - foco total em resultado." />
-    <meta property="og:type" content="website" />
-
+    <meta name="description" content="Transforme seu negócio em uma máquina de crescimento com estratégias de marketing agressivo. Sem agência, sem enrolação - foco total em resultado.">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  </head>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">
+                    Transforme Seu Negócio em Uma
+                    <span class="gradient-text">Máquina de Crescimento</span>
+                    com Estratégias de Marketing Agressivo
+                </h1>
+                <p class="hero-subtitle">
+                    Sem agência, sem enrolação. Eu assumo o marketing do seu negócio como se fosse meu — com foco total em resultado.
+                </p>
+                <button class="cta-button" onclick="openWhatsApp()">
+                    Quero Crescer Agora
+                    <span class="arrow">→</span>
+                </button>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Pain Section -->
+    <section class="pain-section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">
+                    Está Cansado das <span class="gradient-text">Promessas Vazias</span> das Agências?
+                </h2>
+                <div class="pain-grid">
+                    <div class="pain-card">
+                        <div class="emoji">😤</div>
+                        <p>Já investiu em marketing e não viu retorno?</p>
+                    </div>
+                    <div class="pain-card">
+                        <div class="emoji">😔</div>
+                        <p>Se sente sozinho nas decisões?</p>
+                    </div>
+                    <div class="pain-card">
+                        <div class="emoji">🤔</div>
+                        <p>Precisa crescer, mas não sabe por onde começar?</p>
+                    </div>
+                </div>
+                <div class="highlight-box">
+                    <p>Você não precisa de uma agência, você precisa de alguém que jogue no seu time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I Do Section -->
+    <section class="what-i-do">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">
+                    O Que Eu <span class="gradient-text">Faço Por Você</span>
+                </h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <div class="feature-content">
+                            <h3>Assumo seu marketing como se fosse meu</h3>
+                            <p>Trabalho com dedicação total ao seu projeto, como se fosse meu próprio negócio.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <div class="feature-content">
+                            <h3>Executo estratégias com foco em ROI</h3>
+                            <p>Cada ação tem objetivo claro: gerar mais vendas e receita para seu negócio.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✅</div>
+                        <div class="feature-content">
+                            <h3>Analiso dados e escalo o que funciona</h3>
+                            <p>Testo, meço, otimizo e multiplico apenas as estratégias que trazem resultado.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <div class="feature-content">
+                            <h3>Foco total em vendas e crescimento real</h3>
+                            <p>Sem métricas de vaidade. O que importa é faturamento e crescimento sustentável.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Authority Section -->
+    <section class="authority">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">
+                    Quem <span class="gradient-text">Sou Eu?</span>
+                </h2>
+                <div class="authority-content">
+                    <p class="authority-text">
+                        Me chamo <strong>Jonathan Amorim</strong>, mais conhecido como <strong>Jota</strong>, com 15 anos de experiência em marketing digital, 
+                        ajudando empresas a faturarem milhões. Conheço o que funciona — e o que não.
+                    </p>
+                    <p class="authority-subtext">
+                        De tráfego pago a branding, de inbound a outbound, minha missão é uma só: 
+                        <strong>fazer você crescer.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Plans Section -->
+    <section class="investment">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">
+                    Planos de <span class="gradient-text">Investimento</span>
+                </h2>
+                <div class="investment-content">
+                    <p class="investment-text">
+                        Trabalho com investimentos <strong>a partir de R$ 3.000 mensais</strong> 
+                        pela prestação de serviço completo de marketing.
+                    </p>
+                    <p class="investment-subtext">
+                        Este investimento garante dedicação total ao seu projeto, com estratégias 
+                        personalizadas e foco exclusivo no crescimento do seu negócio.
+                    </p>
+                    <button class="cta-button" onclick="openWhatsApp()">
+                        Conhecer os Planos
+                        <span class="arrow">→</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">
+                    Por Que Eu e <span class="gradient-text">Não Uma Agência?</span>
+                </h2>
+                <div class="comparison-grid">
+                    <div class="comparison-card negative">
+                        <h3>Agência Tradicional</h3>
+                        <ul>
+                            <li>• Você é só mais um cliente</li>
+                            <li>• Processos lentos</li>
+                            <li>• Foco em relatórios</li>
+                        </ul>
+                    </div>
+                    <div class="comparison-card positive">
+                        <h3>Comigo</h3>
+                        <ul>
+                            <li>✓ Seu marketing é tratado como prioridade</li>
+                            <li>✓ Agilidade e execução direta</li>
+                            <li>✓ Foco em vendas e resultados</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Offer Section -->
+    <section class="final-offer">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title white">
+                    Vamos <span class="text-orange-light">Crescer Juntos</span>
+                </h2>
+                <p class="final-text">
+                    Trabalho com poucos clientes por vez para garantir alta performance. 
+                    Se você quer crescer, chegou a hora de agir.
+                </p>
+                <button class="cta-button white" onclick="openWhatsApp()">
+                    Quero Falar com Você
+                    <span class="arrow">💬</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">
+                    Entre em <span class="gradient-text">Contato</span>
+                </h2>
+                <p class="contact-subtitle">
+                    Vamos conversar. Me conte um pouco sobre seu negócio e vamos descobrir se posso te ajudar.
+                </p>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3>Email</h3>
+                        <p>minbrandmedia@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3>WhatsApp</h3>
+                        <p>(83) 9 9406-6143</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 MinBrand – Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
