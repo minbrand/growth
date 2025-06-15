@@ -167,7 +167,7 @@ const Index = () => {
             </h2>
             <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg">
               <p className="text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed">
-                Trabalho com investimentos <strong className="text-orange-600">a partir de R$ 3.000 mensais</strong> 
+                Trabalho com investimentos <strong className="text-orange-600">a partir de R$ 2.000 mensais </strong> 
                 pela prestação de serviço completo de marketing.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
