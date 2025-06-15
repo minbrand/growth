@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Check, ArrowRight, MessageSquare, TrendingUp, Target, Users } from 'lucide-react';
@@ -39,7 +38,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(255,87,34,0.1),transparent)]"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight">
               Transforme Seu Negócio em Uma{' '}
               <span className="gradient-text">Máquina de Crescimento</span>{' '}
               com Estratégias de Marketing Agressivo
@@ -147,7 +146,7 @@ const Index = () => {
             </h2>
             <div className="bg-gray-50 rounded-3xl p-8 md:p-12">
               <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
-                Sou <strong>[Seu Nome]</strong>, com 15 anos de experiência em marketing digital, 
+                Me chamo <strong>Jonathan Amorim</strong>, mais conhecido como <strong>Jota</strong>, com 15 anos de experiência em marketing digital, 
                 ajudando empresas a faturarem milhões. Conheço o que funciona — e o que não.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -159,8 +158,37 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Comparison Section */}
+      {/* Investment Plans Section */}
       <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <div className="animate-on-scroll max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-bold mb-8">
+              Planos de <span className="gradient-text">Investimento</span>
+            </h2>
+            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg">
+              <p className="text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed">
+                Trabalho com investimentos <strong className="text-orange-600">a partir de R$ 2.000 mensais</strong> 
+                pela prestação de serviço completo de marketing.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-8">
+                Este investimento garante dedicação total ao seu projeto, com estratégias 
+                personalizadas e foco exclusivo no crescimento do seu negócio.
+              </p>
+              <Button 
+                size="lg"
+                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-xl hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105"
+                onClick={() => window.open(whatsappUrl, '_blank')}
+              >
+                Conhecer os Planos
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Comparison Section */}
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="animate-on-scroll max-w-5xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
@@ -256,7 +284,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 bg-gray-900 text-white">
         <div className="container mx-auto px-6 text-center">
-          <p className="text-gray-400">© 2025 [Seu Nome] – Todos os direitos reservados</p>
+          <p className="text-gray-400">© 2025 Jonathan Amorim (Jota) – Todos os direitos reservados</p>
         </div>
       </footer>
     </div>
